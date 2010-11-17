@@ -10,6 +10,7 @@ OpenGLES
 CoreText
 MediaPlayer
 AVFoundation
+CoreData (optional)
 
 Update your Info.plist with these configurations:
 
@@ -24,15 +25,15 @@ Integrate Glimmer into Squares Xcode project:
 
 -Copy all files from the /Classes folder into your xcode project except for the GMAppDelegate
 -Copy over the "Glimmer-Animation.plist". This file will the template for your book.
--FInally copy "GMPageViewController.xib" into your project
+-Finally copy "GMPageViewController.xib" into your project
 
-Glimmer uses png images and mov
+Glimmer uses png images, mov videos and aiff audio files
 
 First add this line to your app delegate header file:
 
-IBOutlet UIViewController *pageViewController;
+IBOutlet GMPageViewController *pageViewController;
 
-And add this to your delegate implementation file:
+And add this to your delegate application didFinishLaunchingWithOptions method in the implementation file:
 
 [window addSubview:pageViewController.view];
 [window makeKeyAndVisible];
