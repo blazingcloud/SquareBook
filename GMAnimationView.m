@@ -48,7 +48,6 @@ static GMAnimationTiltType lastTilt = kGMAnimationTiltLevel;
 	if (videoPlayer.loadState & MPMovieLoadStatePlayable &&
 		videoPlayer.loadState & MPMovieLoadStatePlaythroughOK) {
 		foregroundView.hidden = YES;
-NSLog(@"videoPlayer play");
 		[videoPlayer play];
 	}
 }

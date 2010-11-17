@@ -71,8 +71,6 @@
 - (void)loadPage {
 	NSDictionary *pageConfig = [animationConfig objectAtIndex:currentPage];
 	NSString *page = [pageConfig objectForKey:@"name"];
-    
-NSLog(@"page name: %@", page);
 
 	[textView loadPage:page withConfig:[pageConfig objectForKey:@"words"]];
 	textView.hidden = NO;
@@ -129,8 +127,6 @@ NSLog(@"page name: %@", page);
 }
 
 - (void) tearDown {
-NSLog(@"application terminated on page: %d", currentPage);
-    
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 	[animationConfig release];
 	animationConfig = nil;

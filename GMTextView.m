@@ -52,8 +52,6 @@
     
 	[self setCueTimes:[config objectForKey:@"cues"]];
     
-NSLog(@"text %@, cueTimes %@", [config objectForKey:@"text"], [config objectForKey:@"cues"]);
-    
 	float x = [[config objectForKey:@"x"] floatValue];
 	if (isnan(x)) x = 0;
 	
@@ -153,7 +151,6 @@ NSLog(@"text %@, cueTimes %@", [config objectForKey:@"text"], [config objectForK
 	[self stop];
 
 	NSString *filePath = [[NSBundle mainBundle] pathForResource:pageName ofType:@"aiff"];
-NSLog(@"filePath to audio: %@, pageName: %@", filePath, pageName);
 	if (!filePath) return;
 	
 	NSURL *url = [NSURL fileURLWithPath:filePath];
@@ -164,8 +161,6 @@ NSLog(@"filePath to audio: %@, pageName: %@", filePath, pageName);
 
 	timer = [CADisplayLink displayLinkWithTarget:self selector:@selector(refresh)];
 	[timer addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
-	
-NSLog(@"url to audio: %@", url);
     
 	player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
 	player.delegate = self;
