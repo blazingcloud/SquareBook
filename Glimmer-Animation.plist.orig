@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>cover</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>page 1</string>
+		<key>text</key>
+		<string>Once upon a time there was a square who learned how to stand on his head.</string>
+		<key>cues</key>
+		<array>
+			<string>##page1##</string>
+		</array>
+		<key>tap</key>
+		<array>
+			<string>square</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>page 2</string>
+		<key>tap</key>
+		<array>
+			<string>friends</string>
+		</array>
+	</dict>
+</array>
+</plist>

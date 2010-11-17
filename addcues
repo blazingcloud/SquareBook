@@ -1,0 +1,60 @@
+#!/bin/bash
+
+PROG=`basename $0`
+usage() {
+    echo "usage: $PROG <plist> <cuefile1> [<cuefile2> ...]"
+    echo
+	echo "This script will replace any pattern that looks like ##page## with a list of cue times."
+	echo "For example, assuming portion of the plist file named 'test.plist' looks like:"
+	echo 
+    echo "	<array>"
+	echo "		<string>##truck##</string>"
+    echo "	</array>"
+	echo
+	echo "and the 'truck' cuefile has the following times:"
+	echo
+	echo "    0.000000        0.000000"
+	echo "    0.476009        0.476009"
+	echo "    0.859138        0.859138"
+	echo
+	echo "Running $PROG test.plist truck will yield:"
+	echo
+    echo "	<array>"
+    echo "		<string>0.000000</string>"
+	echo "		<string>0.476009</string>"
+	echo "		<string>0.859138</string>"
+    echo "	</array>"
+	echo
+}
+
+plist=$1 && shift
+[ `grep -c '^<plist' $plist` == 0 ] && usage && exit 1
+
+mv $plist $plist.orig
+cp $plist.orig $plist
+
+for page in $*; do
+
+	pattern="##$page##"
+	count=`grep -c "$pattern" $plist`
+	if [ $count == 1 ]; then
+
+		times=''
+		for t in `cat $page | awk '{print $1}'`; do
+			times="$times<string>$t</string>"
+		done
+
+		sed -i '' -e 's!<string>'$pattern'</string>!'$times'!g' -e 's!</string><string>!</string>\
+				<string>!g' $plist
+
+	else 
+		echo -n "Skipping $page: "
+		if [ $count == 0 ]; then
+			echo '"'$pattern'" pattern not found'
+		else
+			echo '"'$pattern'" pattern found '$count' times'
+		fi
+		continue
+	fi
+
+done
