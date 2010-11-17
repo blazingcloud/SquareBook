@@ -1,0 +1,5 @@
+.DS_Store
+SquareBook.xcodeproj/*.pbxuser
+SquareBook.xcodeproj/*.mode1v3
+*.framework/
+build/
