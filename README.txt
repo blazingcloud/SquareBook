@@ -1,4 +1,7 @@
-Creating Square
+Creating SquareBook
+
+SquareBook is a sample iPad book application made with the open source Glimmer library.
+https://github.com/blazingcloud/glimmer
 
 Application Setup:
 
@@ -21,7 +24,7 @@ Supported interface orientations
 Status bar is initially hidden
 true
 
-Integrate Glimmer into Squares Xcode project:
+Integrate Glimmer into SquareBooks Xcode project:
 
 -Copy all files from the /Classes folder into your xcode project except for the GMAppDelegate
 -Copy over the "Glimmer-Animation.plist". This file will the template for your book.
