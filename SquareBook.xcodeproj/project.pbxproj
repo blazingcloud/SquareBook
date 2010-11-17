@@ -23,21 +23,20 @@
 		11CDDCD21293412600B6D956 /* page 2_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCC81293412600B6D956 /* page 2_default.png */; };
 		11CDDCD31293412600B6D956 /* story.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCC91293412600B6D956 /* story.txt */; };
 		11CDDCD5129342B700B6D956 /* cover_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCD4129342B700B6D956 /* cover_default.png */; };
-		11CDDD931293436D00B6D956 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDDD8E1293436C00B6D956 /* QuartzCore.framework */; };
-		11CDDD941293436D00B6D956 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDDD8F1293436D00B6D956 /* OpenGLES.framework */; };
-		11CDDD951293436D00B6D956 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDDD901293436D00B6D956 /* CoreText.framework */; };
-		11CDDD961293436D00B6D956 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDDD911293436D00B6D956 /* MediaPlayer.framework */; };
-		11CDDD971293436D00B6D956 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDDD921293436D00B6D956 /* AVFoundation.framework */; };
 		11CDDE2A1293565500B6D956 /* GMPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDE291293565500B6D956 /* GMPageViewController.xib */; };
 		11CDDE85129364FC00B6D956 /* AmericanTypewriter in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDE84129364FC00B6D956 /* AmericanTypewriter */; };
 		11CDDF0E1293755900B6D956 /* page 2_tapFriends.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF0D1293755900B6D956 /* page 2_tapFriends.png */; };
 		11CDDF2012938F4A00B6D956 /* page 1_tiltRight.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF1F12938F4A00B6D956 /* page 1_tiltRight.mov */; };
 		11CDDF2D129455D800B6D956 /* page 1_tapSquare.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF2C129455D800B6D956 /* page 1_tapSquare.mov */; };
 		11CDDF3E1294570100B6D956 /* page 1_tiltLeft.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF3D1294570100B6D956 /* page 1_tiltLeft.mov */; };
-		11CDE09512945F4000B6D956 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE09412945F4000B6D956 /* CoreData.framework */; };
 		11CDE13012946AA500B6D956 /* SquareBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE12E12946AA500B6D956 /* SquareBook.xcdatamodeld */; };
 		11CDE19212947B5F00B6D956 /* page 1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE19012947B5F00B6D956 /* page 1.aiff */; };
 		11CDE19312947B5F00B6D956 /* page 2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE19112947B5F00B6D956 /* page 2.aiff */; };
+		11CDE1CB1294942E00B6D956 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1CA1294942E00B6D956 /* MediaPlayer.framework */; };
+		11CDE1CD1294943500B6D956 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1CC1294943500B6D956 /* AVFoundation.framework */; };
+		11CDE1D51294944A00B6D956 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1D41294944A00B6D956 /* CoreText.framework */; };
+		11CDE1DB1294945C00B6D956 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1DA1294945C00B6D956 /* CoreData.framework */; };
+		11CDE1E11294946B00B6D956 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1E01294946B00B6D956 /* QuartzCore.framework */; };
 		1D3623260D0F684500981E51 /* SquareBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SquareBookAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -71,21 +70,20 @@
 		11CDDCC81293412600B6D956 /* page 2_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page 2_default.png"; sourceTree = "<group>"; };
 		11CDDCC91293412600B6D956 /* story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
 		11CDDCD4129342B700B6D956 /* cover_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_default.png; sourceTree = "<group>"; };
-		11CDDD8E1293436C00B6D956 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
-		11CDDD8F1293436D00B6D956 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGLES.framework; sourceTree = "<group>"; };
-		11CDDD901293436D00B6D956 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreText.framework; sourceTree = "<group>"; };
-		11CDDD911293436D00B6D956 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediaPlayer.framework; sourceTree = "<group>"; };
-		11CDDD921293436D00B6D956 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
 		11CDDE291293565500B6D956 /* GMPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMPageViewController.xib; sourceTree = "<group>"; };
 		11CDDE84129364FC00B6D956 /* AmericanTypewriter */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AmericanTypewriter; sourceTree = "<group>"; };
 		11CDDF0D1293755900B6D956 /* page 2_tapFriends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page 2_tapFriends.png"; sourceTree = "<group>"; };
 		11CDDF1F12938F4A00B6D956 /* page 1_tiltRight.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 1_tiltRight.mov"; sourceTree = "<group>"; };
 		11CDDF2C129455D800B6D956 /* page 1_tapSquare.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 1_tapSquare.mov"; sourceTree = "<group>"; };
 		11CDDF3D1294570100B6D956 /* page 1_tiltLeft.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 1_tiltLeft.mov"; sourceTree = "<group>"; };
-		11CDE09412945F4000B6D956 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreData.framework; sourceTree = "<group>"; };
 		11CDE12F12946AA500B6D956 /* SquareBook.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SquareBook.xcdatamodel; sourceTree = "<group>"; };
 		11CDE19012947B5F00B6D956 /* page 1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "page 1.aiff"; sourceTree = "<group>"; };
 		11CDE19112947B5F00B6D956 /* page 2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "page 2.aiff"; sourceTree = "<group>"; };
+		11CDE1CA1294942E00B6D956 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		11CDE1CC1294943500B6D956 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		11CDE1D41294944A00B6D956 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		11CDE1DA1294945C00B6D956 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		11CDE1E01294946B00B6D956 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SquareBookAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareBookAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SquareBookAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareBookAppDelegate.m; sourceTree = "<group>"; };
@@ -106,12 +104,11 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
-				11CDDD931293436D00B6D956 /* QuartzCore.framework in Frameworks */,
-				11CDDD941293436D00B6D956 /* OpenGLES.framework in Frameworks */,
-				11CDDD951293436D00B6D956 /* CoreText.framework in Frameworks */,
-				11CDDD961293436D00B6D956 /* MediaPlayer.framework in Frameworks */,
-				11CDDD971293436D00B6D956 /* AVFoundation.framework in Frameworks */,
-				11CDE09512945F4000B6D956 /* CoreData.framework in Frameworks */,
+				11CDE1CB1294942E00B6D956 /* MediaPlayer.framework in Frameworks */,
+				11CDE1CD1294943500B6D956 /* AVFoundation.framework in Frameworks */,
+				11CDE1D51294944A00B6D956 /* CoreText.framework in Frameworks */,
+				11CDE1DB1294945C00B6D956 /* CoreData.framework in Frameworks */,
+				11CDE1E11294946B00B6D956 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,15 +206,14 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11CDE09412945F4000B6D956 /* CoreData.framework */,
-				11CDDD8E1293436C00B6D956 /* QuartzCore.framework */,
-				11CDDD8F1293436D00B6D956 /* OpenGLES.framework */,
-				11CDDD901293436D00B6D956 /* CoreText.framework */,
-				11CDDD911293436D00B6D956 /* MediaPlayer.framework */,
-				11CDDD921293436D00B6D956 /* AVFoundation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				11CDE1CA1294942E00B6D956 /* MediaPlayer.framework */,
+				11CDE1CC1294943500B6D956 /* AVFoundation.framework */,
+				11CDE1D41294944A00B6D956 /* CoreText.framework */,
+				11CDE1DA1294945C00B6D956 /* CoreData.framework */,
+				11CDE1E01294946B00B6D956 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
