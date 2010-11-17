@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11CDDCB4129340E600B6D956 /* GMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCA4129340E600B6D956 /* GMPageViewController.m */; };
-		11CDDCB5129340E600B6D956 /* GMTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCA6129340E600B6D956 /* GMTouchView.m */; };
-		11CDDCB6129340E600B6D956 /* GMTiltNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCA8129340E600B6D956 /* GMTiltNotifier.m */; };
-		11CDDCB7129340E600B6D956 /* GMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCAA129340E600B6D956 /* GMAnimation.m */; };
-		11CDDCB8129340E600B6D956 /* GMAnimationSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCAC129340E600B6D956 /* GMAnimationSequencer.m */; };
-		11CDDCB9129340E600B6D956 /* GMAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCAE129340E600B6D956 /* GMAnimationView.m */; };
-		11CDDCBA129340E600B6D956 /* GMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCB0129340E600B6D956 /* GMTextView.m */; };
-		11CDDCBB129340E600B6D956 /* UIImage-Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDDCB2129340E600B6D956 /* UIImage-Alpha.m */; };
-		11CDDCBD129340F100B6D956 /* Glimmer-Animation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCBC129340F100B6D956 /* Glimmer-Animation.plist */; };
-		11CDDCCB1293412600B6D956 /* page 1_tapSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCC11293412600B6D956 /* page 1_tapSquare.png */; };
-		11CDDCCC1293412600B6D956 /* page 1_tapSquareReal.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCC21293412600B6D956 /* page 1_tapSquareReal.mov */; };
-		11CDDCCF1293412600B6D956 /* page 1_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCC51293412600B6D956 /* page 1_default.png */; };
-		11CDDCD11293412600B6D956 /* page 2_tapFriends.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCC71293412600B6D956 /* page 2_tapFriends.mov */; };
-		11CDDCD21293412600B6D956 /* page 2_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCC81293412600B6D956 /* page 2_default.png */; };
-		11CDDCD5129342B700B6D956 /* cover_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDCD4129342B700B6D956 /* cover_default.png */; };
-		11CDDE2A1293565500B6D956 /* GMPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDE291293565500B6D956 /* GMPageViewController.xib */; };
-		11CDDE85129364FC00B6D956 /* AmericanTypewriter in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDE84129364FC00B6D956 /* AmericanTypewriter */; };
-		11CDDF0E1293755900B6D956 /* page 2_tapFriends.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF0D1293755900B6D956 /* page 2_tapFriends.png */; };
-		11CDDF2012938F4A00B6D956 /* page 1_tiltRight.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF1F12938F4A00B6D956 /* page 1_tiltRight.mov */; };
-		11CDDF2D129455D800B6D956 /* page 1_tapSquare.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF2C129455D800B6D956 /* page 1_tapSquare.mov */; };
-		11CDDF3E1294570100B6D956 /* page 1_tiltLeft.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDDF3D1294570100B6D956 /* page 1_tiltLeft.mov */; };
 		11CDE13012946AA500B6D956 /* SquareBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE12E12946AA500B6D956 /* SquareBook.xcdatamodeld */; };
-		11CDE19212947B5F00B6D956 /* page 1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE19012947B5F00B6D956 /* page 1.aiff */; };
-		11CDE19312947B5F00B6D956 /* page 2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE19112947B5F00B6D956 /* page 2.aiff */; };
 		11CDE1CB1294942E00B6D956 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1CA1294942E00B6D956 /* MediaPlayer.framework */; };
 		11CDE1CD1294943500B6D956 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1CC1294943500B6D956 /* AVFoundation.framework */; };
 		11CDE1D51294944A00B6D956 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1D41294944A00B6D956 /* CoreText.framework */; };
 		11CDE1DB1294945C00B6D956 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1DA1294945C00B6D956 /* CoreData.framework */; };
 		11CDE1E11294946B00B6D956 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDE1E01294946B00B6D956 /* QuartzCore.framework */; };
+		11CDE20912949CA500B6D956 /* Glimmer-Animation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE1F712949CA500B6D956 /* Glimmer-Animation.plist */; };
+		11CDE20A12949CA500B6D956 /* GMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE1F912949CA500B6D956 /* GMAnimation.m */; };
+		11CDE20B12949CA500B6D956 /* GMAnimationSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE1FB12949CA500B6D956 /* GMAnimationSequencer.m */; };
+		11CDE20C12949CA500B6D956 /* GMAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE1FD12949CA500B6D956 /* GMAnimationView.m */; };
+		11CDE20D12949CA500B6D956 /* GMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE1FF12949CA500B6D956 /* GMPageViewController.m */; };
+		11CDE20E12949CA500B6D956 /* GMPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE20012949CA500B6D956 /* GMPageViewController.xib */; };
+		11CDE20F12949CA500B6D956 /* GMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE20212949CA500B6D956 /* GMTextView.m */; };
+		11CDE21012949CA500B6D956 /* GMTiltNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE20412949CA500B6D956 /* GMTiltNotifier.m */; };
+		11CDE21112949CA500B6D956 /* GMTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE20612949CA500B6D956 /* GMTouchView.m */; };
+		11CDE21212949CA500B6D956 /* UIImage-Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDE20812949CA500B6D956 /* UIImage-Alpha.m */; };
+		11CDE22012949CBD00B6D956 /* AmericanTypewriter in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21312949CBD00B6D956 /* AmericanTypewriter */; };
+		11CDE22112949CBD00B6D956 /* cover_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21412949CBD00B6D956 /* cover_default.png */; };
+		11CDE22212949CBD00B6D956 /* page 1_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21512949CBD00B6D956 /* page 1_default.png */; };
+		11CDE22312949CBD00B6D956 /* page 1_tapSquare.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21612949CBD00B6D956 /* page 1_tapSquare.mov */; };
+		11CDE22412949CBD00B6D956 /* page 1_tapSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21712949CBD00B6D956 /* page 1_tapSquare.png */; };
+		11CDE22512949CBD00B6D956 /* page 1_tapSquareReal.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21812949CBD00B6D956 /* page 1_tapSquareReal.mov */; };
+		11CDE22612949CBD00B6D956 /* page 1_tiltLeft.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21912949CBD00B6D956 /* page 1_tiltLeft.mov */; };
+		11CDE22712949CBD00B6D956 /* page 1_tiltRight.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21A12949CBD00B6D956 /* page 1_tiltRight.mov */; };
+		11CDE22812949CBD00B6D956 /* page 1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21B12949CBD00B6D956 /* page 1.aiff */; };
+		11CDE22912949CBD00B6D956 /* page 2_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21C12949CBD00B6D956 /* page 2_default.png */; };
+		11CDE22A12949CBD00B6D956 /* page 2_tapFriends.mov in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21D12949CBD00B6D956 /* page 2_tapFriends.mov */; };
+		11CDE22B12949CBD00B6D956 /* page 2_tapFriends.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21E12949CBD00B6D956 /* page 2_tapFriends.png */; };
+		11CDE22C12949CBD00B6D956 /* page 2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 11CDE21F12949CBD00B6D956 /* page 2.aiff */; };
 		1D3623260D0F684500981E51 /* SquareBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SquareBookAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -45,43 +45,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11CDDCA3129340E600B6D956 /* GMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPageViewController.h; sourceTree = "<group>"; };
-		11CDDCA4129340E600B6D956 /* GMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPageViewController.m; sourceTree = "<group>"; };
-		11CDDCA5129340E600B6D956 /* GMTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTouchView.h; sourceTree = "<group>"; };
-		11CDDCA6129340E600B6D956 /* GMTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTouchView.m; sourceTree = "<group>"; };
-		11CDDCA7129340E600B6D956 /* GMTiltNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTiltNotifier.h; sourceTree = "<group>"; };
-		11CDDCA8129340E600B6D956 /* GMTiltNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTiltNotifier.m; sourceTree = "<group>"; };
-		11CDDCA9129340E600B6D956 /* GMAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAnimation.h; sourceTree = "<group>"; };
-		11CDDCAA129340E600B6D956 /* GMAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAnimation.m; sourceTree = "<group>"; };
-		11CDDCAB129340E600B6D956 /* GMAnimationSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAnimationSequencer.h; sourceTree = "<group>"; };
-		11CDDCAC129340E600B6D956 /* GMAnimationSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAnimationSequencer.m; sourceTree = "<group>"; };
-		11CDDCAD129340E600B6D956 /* GMAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAnimationView.h; sourceTree = "<group>"; };
-		11CDDCAE129340E600B6D956 /* GMAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAnimationView.m; sourceTree = "<group>"; };
-		11CDDCAF129340E600B6D956 /* GMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTextView.h; sourceTree = "<group>"; };
-		11CDDCB0129340E600B6D956 /* GMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTextView.m; sourceTree = "<group>"; };
-		11CDDCB1129340E600B6D956 /* UIImage-Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Alpha.h"; sourceTree = "<group>"; };
-		11CDDCB2129340E600B6D956 /* UIImage-Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Alpha.m"; sourceTree = "<group>"; };
-		11CDDCBC129340F100B6D956 /* Glimmer-Animation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Glimmer-Animation.plist"; sourceTree = "<group>"; };
-		11CDDCC11293412600B6D956 /* page 1_tapSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page 1_tapSquare.png"; sourceTree = "<group>"; };
-		11CDDCC21293412600B6D956 /* page 1_tapSquareReal.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 1_tapSquareReal.mov"; sourceTree = "<group>"; };
-		11CDDCC51293412600B6D956 /* page 1_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page 1_default.png"; sourceTree = "<group>"; };
-		11CDDCC71293412600B6D956 /* page 2_tapFriends.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 2_tapFriends.mov"; sourceTree = "<group>"; };
-		11CDDCC81293412600B6D956 /* page 2_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page 2_default.png"; sourceTree = "<group>"; };
-		11CDDCD4129342B700B6D956 /* cover_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_default.png; sourceTree = "<group>"; };
-		11CDDE291293565500B6D956 /* GMPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMPageViewController.xib; sourceTree = "<group>"; };
-		11CDDE84129364FC00B6D956 /* AmericanTypewriter */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AmericanTypewriter; sourceTree = "<group>"; };
-		11CDDF0D1293755900B6D956 /* page 2_tapFriends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page 2_tapFriends.png"; sourceTree = "<group>"; };
-		11CDDF1F12938F4A00B6D956 /* page 1_tiltRight.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 1_tiltRight.mov"; sourceTree = "<group>"; };
-		11CDDF2C129455D800B6D956 /* page 1_tapSquare.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 1_tapSquare.mov"; sourceTree = "<group>"; };
-		11CDDF3D1294570100B6D956 /* page 1_tiltLeft.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "page 1_tiltLeft.mov"; sourceTree = "<group>"; };
 		11CDE12F12946AA500B6D956 /* SquareBook.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SquareBook.xcdatamodel; sourceTree = "<group>"; };
-		11CDE19012947B5F00B6D956 /* page 1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "page 1.aiff"; sourceTree = "<group>"; };
-		11CDE19112947B5F00B6D956 /* page 2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "page 2.aiff"; sourceTree = "<group>"; };
 		11CDE1CA1294942E00B6D956 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		11CDE1CC1294943500B6D956 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		11CDE1D41294944A00B6D956 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		11CDE1DA1294945C00B6D956 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		11CDE1E01294946B00B6D956 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		11CDE1F712949CA500B6D956 /* Glimmer-Animation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Glimmer-Animation.plist"; path = "Glimmer/Glimmer-Animation.plist"; sourceTree = "<group>"; };
+		11CDE1F812949CA500B6D956 /* GMAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMAnimation.h; path = Glimmer/GMAnimation.h; sourceTree = "<group>"; };
+		11CDE1F912949CA500B6D956 /* GMAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMAnimation.m; path = Glimmer/GMAnimation.m; sourceTree = "<group>"; };
+		11CDE1FA12949CA500B6D956 /* GMAnimationSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMAnimationSequencer.h; path = Glimmer/GMAnimationSequencer.h; sourceTree = "<group>"; };
+		11CDE1FB12949CA500B6D956 /* GMAnimationSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMAnimationSequencer.m; path = Glimmer/GMAnimationSequencer.m; sourceTree = "<group>"; };
+		11CDE1FC12949CA500B6D956 /* GMAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMAnimationView.h; path = Glimmer/GMAnimationView.h; sourceTree = "<group>"; };
+		11CDE1FD12949CA500B6D956 /* GMAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMAnimationView.m; path = Glimmer/GMAnimationView.m; sourceTree = "<group>"; };
+		11CDE1FE12949CA500B6D956 /* GMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMPageViewController.h; path = Glimmer/GMPageViewController.h; sourceTree = "<group>"; };
+		11CDE1FF12949CA500B6D956 /* GMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMPageViewController.m; path = Glimmer/GMPageViewController.m; sourceTree = "<group>"; };
+		11CDE20012949CA500B6D956 /* GMPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GMPageViewController.xib; path = Glimmer/GMPageViewController.xib; sourceTree = "<group>"; };
+		11CDE20112949CA500B6D956 /* GMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMTextView.h; path = Glimmer/GMTextView.h; sourceTree = "<group>"; };
+		11CDE20212949CA500B6D956 /* GMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMTextView.m; path = Glimmer/GMTextView.m; sourceTree = "<group>"; };
+		11CDE20312949CA500B6D956 /* GMTiltNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMTiltNotifier.h; path = Glimmer/GMTiltNotifier.h; sourceTree = "<group>"; };
+		11CDE20412949CA500B6D956 /* GMTiltNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMTiltNotifier.m; path = Glimmer/GMTiltNotifier.m; sourceTree = "<group>"; };
+		11CDE20512949CA500B6D956 /* GMTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMTouchView.h; path = Glimmer/GMTouchView.h; sourceTree = "<group>"; };
+		11CDE20612949CA500B6D956 /* GMTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMTouchView.m; path = Glimmer/GMTouchView.m; sourceTree = "<group>"; };
+		11CDE20712949CA500B6D956 /* UIImage-Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage-Alpha.h"; path = "Glimmer/UIImage-Alpha.h"; sourceTree = "<group>"; };
+		11CDE20812949CA500B6D956 /* UIImage-Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage-Alpha.m"; path = "Glimmer/UIImage-Alpha.m"; sourceTree = "<group>"; };
+		11CDE21312949CBD00B6D956 /* AmericanTypewriter */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AmericanTypewriter; path = resources/AmericanTypewriter; sourceTree = "<group>"; };
+		11CDE21412949CBD00B6D956 /* cover_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover_default.png; path = resources/cover_default.png; sourceTree = "<group>"; };
+		11CDE21512949CBD00B6D956 /* page 1_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page 1_default.png"; path = "resources/page 1_default.png"; sourceTree = "<group>"; };
+		11CDE21612949CBD00B6D956 /* page 1_tapSquare.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "page 1_tapSquare.mov"; path = "resources/page 1_tapSquare.mov"; sourceTree = "<group>"; };
+		11CDE21712949CBD00B6D956 /* page 1_tapSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page 1_tapSquare.png"; path = "resources/page 1_tapSquare.png"; sourceTree = "<group>"; };
+		11CDE21812949CBD00B6D956 /* page 1_tapSquareReal.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "page 1_tapSquareReal.mov"; path = "resources/page 1_tapSquareReal.mov"; sourceTree = "<group>"; };
+		11CDE21912949CBD00B6D956 /* page 1_tiltLeft.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "page 1_tiltLeft.mov"; path = "resources/page 1_tiltLeft.mov"; sourceTree = "<group>"; };
+		11CDE21A12949CBD00B6D956 /* page 1_tiltRight.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "page 1_tiltRight.mov"; path = "resources/page 1_tiltRight.mov"; sourceTree = "<group>"; };
+		11CDE21B12949CBD00B6D956 /* page 1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "page 1.aiff"; path = "resources/page 1.aiff"; sourceTree = "<group>"; };
+		11CDE21C12949CBD00B6D956 /* page 2_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page 2_default.png"; path = "resources/page 2_default.png"; sourceTree = "<group>"; };
+		11CDE21D12949CBD00B6D956 /* page 2_tapFriends.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "page 2_tapFriends.mov"; path = "resources/page 2_tapFriends.mov"; sourceTree = "<group>"; };
+		11CDE21E12949CBD00B6D956 /* page 2_tapFriends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page 2_tapFriends.png"; path = "resources/page 2_tapFriends.png"; sourceTree = "<group>"; };
+		11CDE21F12949CBD00B6D956 /* page 2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "page 2.aiff"; path = "resources/page 2.aiff"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SquareBookAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareBookAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SquareBookAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareBookAppDelegate.m; sourceTree = "<group>"; };
@@ -125,23 +125,23 @@
 		11CDDCA0129340C900B6D956 /* Glimmer */ = {
 			isa = PBXGroup;
 			children = (
-				11CDDCA3129340E600B6D956 /* GMPageViewController.h */,
-				11CDDCA4129340E600B6D956 /* GMPageViewController.m */,
-				11CDDCA5129340E600B6D956 /* GMTouchView.h */,
-				11CDDCA6129340E600B6D956 /* GMTouchView.m */,
-				11CDDCA7129340E600B6D956 /* GMTiltNotifier.h */,
-				11CDDCA8129340E600B6D956 /* GMTiltNotifier.m */,
-				11CDDCA9129340E600B6D956 /* GMAnimation.h */,
-				11CDDCAA129340E600B6D956 /* GMAnimation.m */,
-				11CDDCAB129340E600B6D956 /* GMAnimationSequencer.h */,
-				11CDDCAC129340E600B6D956 /* GMAnimationSequencer.m */,
-				11CDDCAD129340E600B6D956 /* GMAnimationView.h */,
-				11CDDCAE129340E600B6D956 /* GMAnimationView.m */,
-				11CDDCAF129340E600B6D956 /* GMTextView.h */,
-				11CDDCB0129340E600B6D956 /* GMTextView.m */,
-				11CDDCB1129340E600B6D956 /* UIImage-Alpha.h */,
-				11CDDCB2129340E600B6D956 /* UIImage-Alpha.m */,
-				11CDDE291293565500B6D956 /* GMPageViewController.xib */,
+				11CDE1F812949CA500B6D956 /* GMAnimation.h */,
+				11CDE1F912949CA500B6D956 /* GMAnimation.m */,
+				11CDE1FA12949CA500B6D956 /* GMAnimationSequencer.h */,
+				11CDE1FB12949CA500B6D956 /* GMAnimationSequencer.m */,
+				11CDE1FC12949CA500B6D956 /* GMAnimationView.h */,
+				11CDE1FD12949CA500B6D956 /* GMAnimationView.m */,
+				11CDE1FE12949CA500B6D956 /* GMPageViewController.h */,
+				11CDE1FF12949CA500B6D956 /* GMPageViewController.m */,
+				11CDE20012949CA500B6D956 /* GMPageViewController.xib */,
+				11CDE20112949CA500B6D956 /* GMTextView.h */,
+				11CDE20212949CA500B6D956 /* GMTextView.m */,
+				11CDE20312949CA500B6D956 /* GMTiltNotifier.h */,
+				11CDE20412949CA500B6D956 /* GMTiltNotifier.m */,
+				11CDE20512949CA500B6D956 /* GMTouchView.h */,
+				11CDE20612949CA500B6D956 /* GMTouchView.m */,
+				11CDE20712949CA500B6D956 /* UIImage-Alpha.h */,
+				11CDE20812949CA500B6D956 /* UIImage-Alpha.m */,
 			);
 			name = Glimmer;
 			sourceTree = "<group>";
@@ -179,22 +179,22 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				11CDE19012947B5F00B6D956 /* page 1.aiff */,
-				11CDE19112947B5F00B6D956 /* page 2.aiff */,
+				11CDE21312949CBD00B6D956 /* AmericanTypewriter */,
+				11CDE21412949CBD00B6D956 /* cover_default.png */,
+				11CDE21512949CBD00B6D956 /* page 1_default.png */,
+				11CDE21612949CBD00B6D956 /* page 1_tapSquare.mov */,
+				11CDE21712949CBD00B6D956 /* page 1_tapSquare.png */,
+				11CDE21812949CBD00B6D956 /* page 1_tapSquareReal.mov */,
+				11CDE21912949CBD00B6D956 /* page 1_tiltLeft.mov */,
+				11CDE21A12949CBD00B6D956 /* page 1_tiltRight.mov */,
+				11CDE21B12949CBD00B6D956 /* page 1.aiff */,
+				11CDE21C12949CBD00B6D956 /* page 2_default.png */,
+				11CDE21D12949CBD00B6D956 /* page 2_tapFriends.mov */,
+				11CDE21E12949CBD00B6D956 /* page 2_tapFriends.png */,
+				11CDE21F12949CBD00B6D956 /* page 2.aiff */,
+				11CDE1F712949CA500B6D956 /* Glimmer-Animation.plist */,
 				11CDE12E12946AA500B6D956 /* SquareBook.xcdatamodeld */,
-				11CDDF3D1294570100B6D956 /* page 1_tiltLeft.mov */,
-				11CDDF2C129455D800B6D956 /* page 1_tapSquare.mov */,
-				11CDDF0D1293755900B6D956 /* page 2_tapFriends.png */,
-				11CDDE84129364FC00B6D956 /* AmericanTypewriter */,
-				11CDDCD4129342B700B6D956 /* cover_default.png */,
-				11CDDF1F12938F4A00B6D956 /* page 1_tiltRight.mov */,
-				11CDDCC11293412600B6D956 /* page 1_tapSquare.png */,
-				11CDDCC21293412600B6D956 /* page 1_tapSquareReal.mov */,
-				11CDDCC51293412600B6D956 /* page 1_default.png */,
-				11CDDCC71293412600B6D956 /* page 2_tapFriends.mov */,
-				11CDDCC81293412600B6D956 /* page 2_default.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				11CDDCBC129340F100B6D956 /* Glimmer-Animation.plist */,
 				8D1107310486CEB800E47090 /* SquareBook-Info.plist */,
 			);
 			name = Resources;
@@ -265,21 +265,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				11CDDCBD129340F100B6D956 /* Glimmer-Animation.plist in Resources */,
-				11CDDCCB1293412600B6D956 /* page 1_tapSquare.png in Resources */,
-				11CDDCCC1293412600B6D956 /* page 1_tapSquareReal.mov in Resources */,
-				11CDDCCF1293412600B6D956 /* page 1_default.png in Resources */,
-				11CDDCD11293412600B6D956 /* page 2_tapFriends.mov in Resources */,
-				11CDDCD21293412600B6D956 /* page 2_default.png in Resources */,
-				11CDDCD5129342B700B6D956 /* cover_default.png in Resources */,
-				11CDDE2A1293565500B6D956 /* GMPageViewController.xib in Resources */,
-				11CDDE85129364FC00B6D956 /* AmericanTypewriter in Resources */,
-				11CDDF0E1293755900B6D956 /* page 2_tapFriends.png in Resources */,
-				11CDDF2012938F4A00B6D956 /* page 1_tiltRight.mov in Resources */,
-				11CDDF2D129455D800B6D956 /* page 1_tapSquare.mov in Resources */,
-				11CDDF3E1294570100B6D956 /* page 1_tiltLeft.mov in Resources */,
-				11CDE19212947B5F00B6D956 /* page 1.aiff in Resources */,
-				11CDE19312947B5F00B6D956 /* page 2.aiff in Resources */,
+				11CDE20912949CA500B6D956 /* Glimmer-Animation.plist in Resources */,
+				11CDE20E12949CA500B6D956 /* GMPageViewController.xib in Resources */,
+				11CDE22012949CBD00B6D956 /* AmericanTypewriter in Resources */,
+				11CDE22112949CBD00B6D956 /* cover_default.png in Resources */,
+				11CDE22212949CBD00B6D956 /* page 1_default.png in Resources */,
+				11CDE22312949CBD00B6D956 /* page 1_tapSquare.mov in Resources */,
+				11CDE22412949CBD00B6D956 /* page 1_tapSquare.png in Resources */,
+				11CDE22512949CBD00B6D956 /* page 1_tapSquareReal.mov in Resources */,
+				11CDE22612949CBD00B6D956 /* page 1_tiltLeft.mov in Resources */,
+				11CDE22712949CBD00B6D956 /* page 1_tiltRight.mov in Resources */,
+				11CDE22812949CBD00B6D956 /* page 1.aiff in Resources */,
+				11CDE22912949CBD00B6D956 /* page 2_default.png in Resources */,
+				11CDE22A12949CBD00B6D956 /* page 2_tapFriends.mov in Resources */,
+				11CDE22B12949CBD00B6D956 /* page 2_tapFriends.png in Resources */,
+				11CDE22C12949CBD00B6D956 /* page 2.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,15 +292,15 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SquareBookAppDelegate.m in Sources */,
-				11CDDCB4129340E600B6D956 /* GMPageViewController.m in Sources */,
-				11CDDCB5129340E600B6D956 /* GMTouchView.m in Sources */,
-				11CDDCB6129340E600B6D956 /* GMTiltNotifier.m in Sources */,
-				11CDDCB7129340E600B6D956 /* GMAnimation.m in Sources */,
-				11CDDCB8129340E600B6D956 /* GMAnimationSequencer.m in Sources */,
-				11CDDCB9129340E600B6D956 /* GMAnimationView.m in Sources */,
-				11CDDCBA129340E600B6D956 /* GMTextView.m in Sources */,
-				11CDDCBB129340E600B6D956 /* UIImage-Alpha.m in Sources */,
 				11CDE13012946AA500B6D956 /* SquareBook.xcdatamodeld in Sources */,
+				11CDE20A12949CA500B6D956 /* GMAnimation.m in Sources */,
+				11CDE20B12949CA500B6D956 /* GMAnimationSequencer.m in Sources */,
+				11CDE20C12949CA500B6D956 /* GMAnimationView.m in Sources */,
+				11CDE20D12949CA500B6D956 /* GMPageViewController.m in Sources */,
+				11CDE20F12949CA500B6D956 /* GMTextView.m in Sources */,
+				11CDE21012949CA500B6D956 /* GMTiltNotifier.m in Sources */,
+				11CDE21112949CA500B6D956 /* GMTouchView.m in Sources */,
+				11CDE21212949CA500B6D956 /* UIImage-Alpha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
